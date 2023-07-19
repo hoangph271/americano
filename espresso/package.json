@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next dev -p 9702",
     "postinstall": "prisma generate",
     "lint": "next lint",
     "start": "next start"
@@ -18,9 +18,11 @@
     "@trpc/next": "^10.26.0",
     "@trpc/react-query": "^10.26.0",
     "@trpc/server": "^10.26.0",
+    "ace-builds": "^1.23.4",
     "next": "^13.4.2",
     "next-auth": "^4.22.1",
     "react": "18.2.0",
+    "react-ace": "^10.1.0",
     "react-dom": "18.2.0",
     "superjson": "1.12.2",
     "zod": "^3.21.4"
